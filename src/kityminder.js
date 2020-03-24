@@ -56,6 +56,7 @@ define(function(require, exports, module) {
     require('./module/layout');
     require('./module/node');
     require('./module/note');
+    require('./module/click-id');
     require('./module/outline');
     require('./module/priority');
     require('./module/progress');
@@ -63,6 +64,7 @@ define(function(require, exports, module) {
     require('./module/select');
     require('./module/style');
     require('./module/text');
+    require('./module/type-icons');
     require('./module/view');
     require('./module/zoom');
 

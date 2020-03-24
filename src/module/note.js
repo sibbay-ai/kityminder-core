@@ -96,7 +96,8 @@ define(function(require, exports, module) {
                 var x = box.right + node.getStyle('space-left');
                 var y = box.cy;
 
-                icon.path.fill(node.getStyle('color'));
+                // icon.path.fill(node.getStyle('color'));
+                icon.path.fill("#2c2c2c");
                 icon.setTranslate(x, y);
 
                 return new kity.Box(x, Math.round(y - icon.height / 2), icon.width, icon.height);
