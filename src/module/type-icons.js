@@ -51,8 +51,6 @@ define(function(require, exports, module) {
                     "text": new kity.Path().setPathData(TEXT_DATA).fill('#f4ea2a').scale(0.02),
                     "duration": new kity.Path().setPathData(DURATION_DATA).fill('#f4ea2a').scale(0.02),
                 };
-                console.log('type', this._type);
-                console.log('path', icons[this._type]);
                 this.path = icons[this._type];
                 this.rect = new kity.Rect(20, 20, -2, -6, 4).fill(
                     "rgba(255, 255, 255, 0)"

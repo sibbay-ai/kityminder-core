@@ -24,7 +24,8 @@
   ],
   "scripts": {
     "dev": "grunt dev",
-    "build": "grunt build"
+    "build": "grunt build",
+    "build:toeditor": "grunt build && cp ./dist/* ../vscode-mri/lib/kityminder-editor/core/dist/"
   },
   "bugs": {
     "url": "https://github.com/fex-team/kityminder-core/issues"

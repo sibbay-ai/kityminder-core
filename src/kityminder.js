@@ -65,6 +65,7 @@ define(function(require, exports, module) {
     require('./module/style');
     require('./module/text');
     require('./module/type-icons');
+    require('./module/diff-icons');
     require('./module/view');
     require('./module/zoom');
 
